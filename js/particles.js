@@ -7,7 +7,7 @@ document.addEventListener('DOMContentLoaded', () => {
     particlesJS('particles-js', {
       particles: {
         number: {
-          value: 50,
+          value: 70,
           density: {
             enable: true,
             value_area: 800
@@ -47,7 +47,7 @@ document.addEventListener('DOMContentLoaded', () => {
           }
         },
         line_linked: {
-          enable: true,
+          enable: false,
           distance: 150,
           color: "#d4af37",
           opacity: 0.2,
@@ -73,7 +73,7 @@ document.addEventListener('DOMContentLoaded', () => {
         events: {
           onhover: {
             enable: true,
-            mode: "grab"
+            mode: "bubble"
           },
           onclick: {
             enable: true,

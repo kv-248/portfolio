@@ -12,9 +12,9 @@
   --elden-bg: #292929;
   
   /* Font Families */
-  --font-cinzel: 'Cinzel', serif;
-  --font-cormorant: 'Cormorant Garamond', serif;
-  --font-medieval: 'MedievalSharp', cursive;
+  --font-cinzel: 'Playfair Display', serif;
+  --font-cormorant: 'Raleway', sans-serif;
+  --font-medieval: 'Raleway', sans-serif;
 }
 
 /* Reset and Base Styles */
