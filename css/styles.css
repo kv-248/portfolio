@@ -41,6 +41,9 @@ body {
   overflow-x: hidden;
   font-weight: 300;
   letter-spacing: 0.02em;
+  background-image: linear-gradient(to bottom, rgba(45, 45, 45, 0.97), rgba(41, 41, 41, 0.97)), 
+                    url('../assets/svg/background-pattern.svg');
+  background-attachment: fixed;
 }
 
 .container {
