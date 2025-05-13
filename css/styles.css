@@ -41,8 +41,7 @@ body {
   overflow-x: hidden;
   font-weight: 300;
   letter-spacing: 0.02em;
-  background-image: linear-gradient(to bottom, rgba(45, 45, 45, 0.97), rgba(41, 41, 41, 0.97)), 
-                    url('../assets/svg/background-pattern.svg');
+  background-color: var(--elden-bg);
   background-attachment: fixed;
 }
 
@@ -58,7 +57,7 @@ h1, h2, h3, h4, h5, h6 {
   font-family: var(--font-cinzel);
   font-weight: 500;
   margin-bottom: 1rem;
-  letter-spacing: 0.05em;
+  letter-spacing: 0.03em;
   text-shadow: 0 0 5px rgba(212, 175, 55, 0.3);
 }
 
@@ -67,6 +66,7 @@ p {
   font-size: 1.1rem;
   font-weight: 300;
   text-shadow: none;
+  line-height: 1.8;
 }
 
 /* Navigation */
@@ -115,10 +115,12 @@ p {
 }
 
 .nav-link {
-  font-family: var(--font-medieval);
+  font-family: var(--font-cormorant);
   color: var(--elden-light);
   text-decoration: none;
   transition: color 0.3s ease;
+  font-weight: 400;
+  letter-spacing: 0.05em;
 }
 
 .nav-link:hover {
@@ -174,11 +176,13 @@ p {
 }
 
 .mobile-nav-link {
-  font-family: var(--font-medieval);
+  font-family: var(--font-cormorant);
   font-size: 1.5rem;
   color: var(--elden-gold);
   text-decoration: none;
   transition: color 0.3s ease;
+  font-weight: 400;
+  letter-spacing: 0.05em;
 }
 
 .mobile-nav-link:hover {
@@ -239,10 +243,10 @@ p {
   font-family: var(--font-cinzel);
   color: var(--elden-gold);
   margin-bottom: 1rem;
-  letter-spacing: 0.1em;
+  letter-spacing: 0.08em;
   animation: float 3s ease-in-out infinite;
   text-shadow: 0 0 10px rgba(212, 175, 55, 0.4);
-  font-weight: 400;
+  font-weight: 500;
 }
 
 @media (min-width: 768px) {
@@ -263,8 +267,9 @@ p {
   font-family: var(--font-cormorant);
   color: rgba(245, 245, 220, 0.9);
   margin-bottom: 2rem;
-  letter-spacing: 0.1em;
+  letter-spacing: 0.05em;
   font-weight: 300;
+  line-height: 1.8;
 }
 
 .hero-buttons {
@@ -279,13 +284,13 @@ p {
   display: inline-block;
   padding: 0.75rem 1.5rem;
   border: 1px solid;
-  font-family: var(--font-cinzel);
+  font-family: var(--font-cormorant);
   text-decoration: none;
   transition: all 0.3s ease;
   position: relative;
   font-weight: 400;
   font-size: 0.9rem;
-  letter-spacing: 0.1em;
+  letter-spacing: 0.05em;
   background-color: rgba(0,0,0,0.2);
   box-shadow: 0 0 10px rgba(0,0,0,0.2);
 }
@@ -612,9 +617,10 @@ p {
 
 .skills-category-title {
   font-size: 1.5rem;
-  font-family: var(--font-medieval);
+  font-family: var(--font-cinzel);
   color: var(--elden-gold);
   margin-bottom: 0.5rem;
+  font-weight: 400;
 }
 
 .skill-crimson {

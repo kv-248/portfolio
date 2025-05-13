@@ -127,7 +127,7 @@ document.addEventListener('DOMContentLoaded', () => {
  */
 function createFallbackParticles(container) {
   const colors = ['#d4af37', '#8b0000', '#7df9ff'];
-  const particleCount = 20;
+  const particleCount = 40;
   
   // Clear container
   container.innerHTML = '';
