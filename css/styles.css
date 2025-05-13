@@ -2,12 +2,14 @@
 :root {
   /* Colors */
   --elden-gold: #D4AF37;
+  --elden-gold-muted: rgba(212, 175, 55, 0.7);
   --elden-crimson: #8B0000;
   --elden-dark: #1E1E1E;
   --elden-darker: #121212;
   --elden-light: #F5F5DC;
+  --elden-lighter: #FFFFF0;
   --elden-blue: #7DF9FF;
-  --elden-bg: #222222;
+  --elden-bg: #292929;
   
   /* Font Families */
   --font-cinzel: 'Cinzel', serif;
