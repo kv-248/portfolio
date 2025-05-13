@@ -1,0 +1,21 @@
+<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 300 10" width="300" height="10">
+  <defs>
+    <linearGradient id="dividerGradient" x1="0%" y1="0%" x2="100%" y2="0%">
+      <stop offset="0%" stop-color="#d4af37" stop-opacity="0"/>
+      <stop offset="50%" stop-color="#d4af37" stop-opacity="1"/>
+      <stop offset="100%" stop-color="#d4af37" stop-opacity="0"/>
+    </linearGradient>
+  </defs>
+  
+  <!-- Divider line -->
+  <rect x="0" y="4" width="300" height="2" fill="url(#dividerGradient)"/>
+  
+  <!-- Center decoration -->
+  <circle cx="150" cy="5" r="3" fill="#d4af37" opacity="0.8"/>
+  
+  <!-- Small decorations -->
+  <circle cx="120" cy="5" r="1.5" fill="#d4af37" opacity="0.6"/>
+  <circle cx="180" cy="5" r="1.5" fill="#d4af37" opacity="0.6"/>
+  <circle cx="90" cy="5" r="1" fill="#d4af37" opacity="0.4"/>
+  <circle cx="210" cy="5" r="1" fill="#d4af37" opacity="0.4"/>
+</svg>
